@@ -1,0 +1,13 @@
+.header__title {
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: bold;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 0 64px;
+  max-width: 730px;
+  z-index: 2;
+}
+/* я хотел отцентровать по-другому, но в первом брифе было сказано сделать флексом (или я неправильно понял?). Попробовал сделать через align-items, но не вышло :( */
